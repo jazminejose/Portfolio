@@ -1,0 +1,88 @@
+body {
+  background: black;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 100px;
+  text-align: center;
+  /* margin-top: 125px; */
+  /* opacity: 0.3; */
+}
+
+h2 {
+  background-color: pink;
+  font-size: 20px;
+  color: black;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+footer {
+  background-color: gray;
+  color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+img {
+  width: 300px;
+  height: 250px;
+  object-fit: fill;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  border: 5px dashed pink;
+  width: 800px;
+  margin-bottom: 10px;
+  padding: 50px;
+}
+
+.col {
+  background-color: pink;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+}
+
+.card-title {
+  background-color: pink;
+  color: black;
+}
+
+.card-text {
+  color: black;
+}
+
+.btn {
+  background-color: pink;
+  color: black;
+  border-color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+body {
+    width: 100%;
+  }
+
+.containerMedia {
+  width: 80%;
+  padding: 5px;
+  }
+
+img {
+  width: 100%
+}
+
+.col1 {
+  width: 100%;
+}
+} 
