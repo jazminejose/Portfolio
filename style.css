@@ -19,12 +19,13 @@ h2 {
   color: black;
   padding: 5px;
   margin-top: 5px;
+  width: 100%;
 }
 
 footer {
-  color:white;
+  color: white;
   text-align: center;
-  position: relative;
+  position: absolute;
   width: 100%;
   bottom: 0;
 }
@@ -35,26 +36,37 @@ img {
   object-fit: fill;
 }
 
+a {
+  color: white;
+  text-align: center;
+}
+
+a:hover {
+  background-color: pink;
+  color: white;
+  width: 100%;
+}
+
+.card {
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
 .footerDiv {
   position: absolute;
   bottom: 0px;
 }
+
 .container {
   background-color: black;
   color: white;
   border: 5px dashed pink;
   width: 800px;
   margin-bottom: 10px;
-  padding: 50px;
-}
-
-.col-9 {
-  background-color: pink;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  width: 100%;
-  padding: 0px;
+  padding: 40px;
 }
 
 .card-title {
@@ -82,8 +94,5 @@ img {
   }
   img {
     width: 100%
-  }
-  .col1 {
-    width: 100%;
   }
 }
