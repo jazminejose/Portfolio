@@ -33,6 +33,7 @@ img {
   height: 100%;
   object-fit: fill;
 }
+
 a {
   color: white;
   text-align: center;
@@ -85,11 +86,18 @@ a:hover {
   body {
     width: 100%;
   }
+  img {
+    width: 100%
+  }
+  .h1Media {
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 65px;
+    font-size: 50px;
+    text-align: center;
+  }
   .containerMedia {
     width: 90%;
     padding: 5px;
-  }
-  img {
-    width: 100%
   }
 }
