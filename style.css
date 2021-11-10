@@ -1,5 +1,6 @@
 body {
-  background: black;
+  background: url(https://i.pinimg.com/originals/fa/a3/bc/faa3bca49bacaf8c53ff309df694fe88.jpg);
+  background-size: auto;
   color: white;
 }
 
@@ -85,6 +86,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
   body {
+    background: url(https://i.pinimg.com/originals/fa/a3/bc/faa3bca49bacaf8c53ff309df694fe88.jpg);
     width: 100%;
   }
   img {
